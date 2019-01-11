@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 title: "Spring 2019: Advanced Topics in Numerical Analysis: High Performance Computing"
 description: "Cross-listed as MATH-GA.2012-001 and CSCI-GA 2945.001"
-logo: "/files/logo.pdf"
+logo: ./files/logo.pdf
