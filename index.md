@@ -1,4 +1,6 @@
-# Advanced Topics in Numerical Analysis: High Performance Computing
+---
+layout: default
+---
 
 Here’s a [flyer](./files/flyer.pdf) for the class.
 
