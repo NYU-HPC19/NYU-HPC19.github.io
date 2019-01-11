@@ -1,5 +1,3 @@
-
-# Spring 19: MATH-GA.2012-001 and CSCI-GA 2945.001
 # Advanced Topics in Numerical Analysis: High Performance Computing
 
 Here’s a [flyer](./files/flyer.pdf) for the class.
