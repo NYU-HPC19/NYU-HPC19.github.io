@@ -16,4 +16,8 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 
 **Teaching Assistant:** TBA
 
+## Lecture Material
 
+| Lecture # |    Date | Topics |                     Slides |                                          Code | Homework |
+|:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
+| 1         | Jan 28  | Intro  | [slides](./files/lec1.pdf) | [code](https://github.com/NYU-HPC19/lecture1) |          |
