@@ -20,7 +20,7 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 
 | Lecture # |    Date | Topics |                     Slides |                                          Code | Homework 
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 1         | Jan 28  | Intro  | [slides](./files/lec1.pdf) | [code](https://github.com/NYU-HPC19/lecture1) |          |
+| 1         | Jan 28  | Organization, Tour through HPC, Top 500, Applications, model problems   | [slides](./files/lec1.pdf) | [code](https://github.com/NYU-HPC19/lecture1) |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 2         | Feb 4   | Intro  | [slides] | [code](https://github.com/NYU-HPC19/lecture2) |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
