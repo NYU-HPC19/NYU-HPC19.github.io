@@ -18,6 +18,9 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 
 ## Lecture Material
 
-| Lecture # |    Date | Topics |                     Slides |                                          Code | Homework |
+| Lecture # |    Date | Topics |                     Slides |                                          Code | Homework 
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 1         | Jan 28  | Intro  | [slides](./files/lec1.pdf) | [code](https://github.com/NYU-HPC19/lecture1) |          |
+|:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
+| 2         | Feb 4   | Intro  | [slides] | [code](https://github.com/NYU-HPC19/lecture2) |          |
+|:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
