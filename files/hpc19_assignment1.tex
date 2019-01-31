@@ -1,0 +1,213 @@
+\documentclass[11pt]{article}
+
+%% FONTS
+%% To get the default sans serif font in latex, uncomment following line:
+ \renewcommand*\familydefault{\sfdefault}
+%%
+%% to get Arial font as the sans serif font, uncomment following line:
+%% \renewcommand{\sfdefault}{phv} % phv is the Arial font
+%%
+%% to get Helvetica font as the sans serif font, uncomment following line:
+% \usepackage{helvet}
+\usepackage[small,bf,up]{caption}
+\renewcommand{\captionfont}{\footnotesize}
+\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage{graphics,epsfig,graphicx,float,subfigure,color}
+\usepackage{amsmath,amssymb,amsbsy,amsfonts,amsthm}
+\usepackage{url}
+\usepackage{boxedminipage}
+\usepackage[sf,bf,tiny]{titlesec}
+ \usepackage[plainpages=false, colorlinks=true,
+   citecolor=blue, filecolor=blue, linkcolor=blue,
+   urlcolor=blue]{hyperref}
+\usepackage{enumitem}
+
+\newcommand{\todo}[1]{\textcolor{red}{#1}}
+% see documentation for titlesec package
+% \titleformat{\section}{\large \sffamily \bfseries}
+\titlelabel{\thetitle.\,\,\,}
+
+\newcommand{\bs}{\boldsymbol}
+\newcommand{\alert}[1]{\textcolor{red}{#1}}
+\setlength{\emergencystretch}{20pt}
+
+\begin{document}
+
+
+\begin{center}
+  \vspace*{-2cm}
+{\small MATH-GA 2012.001 and CSCI-GA 2945.001, Georg Stadler \&
+  Dhairya Malhotra (NYU Courant)}
+\end{center}
+\vspace*{.5cm}
+\begin{center}
+\large \textbf{%%
+Spring 2019: Advanced Topics in Numerical Analysis: \\
+High Performance Computing \\
+Assignment 1 (due Feb.\ 11, 2019) }
+\end{center}
+
+% ****************************
+
+\begin{enumerate}
+% --------------------------
+\item {\bf Describe a parallel application and the algorithms used.}
+  Find and examine an application problem for which high-performance
+  computing has been used. Pick a problem from your own research, or
+  find a problem elsewhere. Prepare a 1--2 page description of the
+  problem and describe where and how successful high-performance
+  computing has been/is used. Consider to include the following:
+\begin{enumerate}
+\item What's the application problem being solved?
+\item Why does the problem require large/fast computation?
+\item What are the underlying algorithms?
+\item If the application uses a supercomputer, where is that computer
+  on the Top500 list (\url{http://www.top500.org/})? Say a few words
+  about the kind of architecture.
+\item How well does the algorithm perform? Does it ``scale''?
+\end{enumerate}
+If you are looking for an application, take a look at the papers from
+one of the previous Supercomputing
+conferences.\footnote{\url{http://supercomputing.org/history.php} and
+  choose ``Conference Proceedings''.} Alternatively, take a look at
+the National Science Foundation (NSF)-funded supercomputing
+centers. These centers provide computing resources for open research
+under the Extreme Science and Engineering Discovery Environment
+(XSEDE)\footnote{XSEDE: \url{https://www.xsede.org/}} and the website usually has 
+science stories with links to papers.
+Here are some direct links to US-based computing centers.%
+\footnote{Oark Ridge National Laboratory:
+  \url{https://www.olcf.ornl.gov/}}%
+\footnote{National Energy Research Scientific Computing Center
+  (NERSC): \url{https://www.nersc.gov/}}%
+\footnote{San Diego Supercomputing Center:
+  \url{http://www.sdsc.edu/}}%
+\footnote{Nasa Advanced Supercomputing Division:
+  \url{http://www.nas.nasa.gov/}}%
+\footnote{Texas Advanced Computing Center (TACC):
+  \url{https://www.tacc.utexas.edu/}} Please hand in this description
+as a separate PDF file. I will make all these descriptions available
+to give us an overview of research topics that require HPC resources.
+% ****************************
+
+\item {\bf Matrix-matrix multiplication.}  We will experiment with a
+  simple implementation of a matrix-matrix multiplication, which you
+  can download from the \texttt{homework1} directory in
+  \url{https://github.com/NYU-HPC19/}. We will improve and extend this
+  implementation throughout the semester. For now, let us just assess
+  the performance of this basic function. Report the processor you use
+  for your timings. For code compiled with different optimization
+  flags (\texttt{-O0} and \texttt{-O3}) and for various (large) matrix
+  sizes, report
+  \begin{itemize}
+  \item the flop rate,
+  \item and the rate of memory access.
+  \end{itemize}
+  
+
+% ****************************
+\item {\bf Write a program to solve the Laplace equation in one space
+  dimension.} For a given function $f:[0,1]\to\mathbb R$, we attempt to
+  solve the linear differential equation
+  \begin{equation}\label{eq:elliptic}
+    -u'' = f \text { in } (0,1), \text{ and } u(0) = 0, u(1) =
+    0
+  \end{equation}
+  for a function $u$. In one space dimension\footnote{The
+    generalization of \eqref{eq:elliptic} to two and three-dimensional
+    domains $\Omega$ instead of the one-dimensional interval $\Omega =
+    [0,1]$ is the \emph{Laplace equation},
+    \begin{alignat*}{2}
+      -\Delta u &= f && \text{ on } \Omega,\\
+      u&=0&& \text{ on } \partial\Omega,
+    \end{alignat*}
+    which is one of the most important partial differential equations
+    in mathematical physics.}, this so-called \emph{boundary value
+    problem} can be solved analytically by integrating $f$ twice. In
+  higher dimensions, the analogous problem usually cannot be solved
+  analytically and one must rely on numerical approximations for $u$.
+  We use  a finite number of grid points in $[0,1]$ and
+  finite-difference approximations for the second derivative to
+  approximate the solution to \eqref{eq:elliptic}. We choose the
+  uniformly spaced points $\{x_i=ih:i=0,1,\ldots,N,N+1\}\subset
+  [0,1]$, with $h = 1/(N+1)$, and approximate $u(x_i)\approx u_i$ and
+  $f(x_i)\approx f_i$, for $i=0,\ldots, N+1$. Using Taylor expansions
+  of $u(x_i-h)$ and $u(x_i+h)$ about $u(x_i)$ results in
+  \begin{equation*}%\label{eq:fd}
+    -u''(x_i) = \frac{-u(x_i-h) + 2u(x_i) - u(x_i+h)}{h^2} + \text{h.o.t.},
+  \end{equation*}
+  where h.o.t.\ stands for a remainder term that is of higher order in
+  $h$, i.e., becomes small as $h$ becomes small.
+  We now approximate the second derivative
+  at the point $x_i$ as follows:
+  \begin{equation*}%\label{eq:fd1}
+    -u''(x_i)  \approx  \frac{-u_{i-1} + 2u_i - u_{i+1}}{h^2}.
+  \end{equation*}
+  This results in the following
+  finite-dimensional approximation of \eqref{eq:elliptic}:
+  \begin{equation}\label{eq:Au=f}
+    A\bs u = \bs f,
+  \end{equation}
+  where
+  \begin{equation*}
+  A = \frac{1}{h^2}
+    \begin{bmatrix}
+    2 & -1 & 0 & \cdots & 0\\
+    -1 & 2 & -1 &  & \vdots\\
+    0 & \ddots & \ddots & \ddots &0\\
+    \vdots &  & -1 & 2 & -1\\
+    0 & \cdots & 0 & -1 & 2
+    \end{bmatrix}\!\!,\qquad
+    \bs u = 
+    \begin{bmatrix}
+      u_1\\u_2\\ \vdots \\ u_{N-1}\\u_N
+    \end{bmatrix}\!\!,
+    \qquad
+    \bs f  =
+    \begin{bmatrix}
+      f_1\\f_2\\ \vdots \\ f_{N-1}\\f_N
+    \end{bmatrix}\!.
+  \end{equation*}
+  Simple methods to solve \eqref{eq:Au=f} are the Jacobi and the
+  Gauss-Seidel method, which start from an initial vector $\bs u^0\in
+  \mathbb R^N$ and compute approximate solution vectors $\bs u^k$,
+  $k=1,2,\ldots$. The component-wise formula for the Jacobi method is
+  \begin{equation*}
+    u_i^{k+1} = \frac{1}{a_{ii}}\left(f_i - \sum_{j\not=i}a_{ij}u_j^k\right),
+  \end{equation*}
+  where $a_{ij}$ are the entries of the matrix $A$.  The Gauss-Seidel
+  algorithm is given by
+  \begin{equation*}
+    u_i^{k+1} = \frac{1}{a_{ii}}\left(f_i - \sum_{j<i}a_{ij}u_j^{k+1}
+      - \sum_{j>i}a_{ij}u_j^{k}\right).
+  \end{equation*}
+  If you are unfamiliar with these methods, please take a look at the
+  Wikipedia entries for the
+  Jacobi\footnote{\url{http://en.wikipedia.org/wiki/Jacobi_method}}
+  and the
+  Gauss-Seidel\footnote{\url{http://en.wikipedia.org/wiki/Gauss-Seidel_method}}
+  methods.
+
+  \begin{enumerate}
+  \item Write a program in C that uses the Jacobi or the Gauss-Seidel
+    method to solve \eqref{eq:Au=f}, where the number of
+    discretization points $N$ is an input parameter, and $f(x)\equiv
+    1$, i.e., the right hand side vector $\bs f$ is a vector of all
+    ones.
+  \item After each iteration, output the norm of the residual $\|A\bs
+    u^k - \bs f\|$ on a new line, and terminate the iteration when the
+    initial residual is decreased by a factor of $10^6$ or after 5000
+    iterations. Start the iteration with a zero initialization vector,
+    i.e., $\bs u^0$ is the zero vector.
+  \item Compare the number of iterations needed for the two different
+    methods for different numbers $N=100$ and $N=10,000$. Compare the
+    run times for $N=10,000$ for 100 iterations using different
+    compiler optimization flags (\texttt{-O0} and
+    \texttt{-O3}). Report the results and a listing of your
+    program. Specify which computer architecture you used for your
+    runs.  Make sure you free all the allocated memory before you
+    exit.
+  \end{enumerate}
+\end{enumerate}
+
+\end{document}
