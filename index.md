@@ -15,7 +15,7 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 
 ## Lecture Material
 
-| Lecture # |    Date | Topics |           Slides/ Material |                                          Code | Homework 
+| Lec. no. |    Date | Topics |           Slides/ Material |                                          Code | Homework 
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 1         | Jan 28  | *Theory:* HPC Tour, Top 500 lists, applications, examples; *Tools:* ssh, module   | [slides](./files/lec1.pdf) [computing@CIMS](./files/hpc19_cims.pdf) | [code](https://github.com/NYU-HPC19/lecture1) | [assignment #1](./files/hpc19_assignment1.pdf),  due Feb 11         |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
