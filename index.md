@@ -12,7 +12,7 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 
 **Location:** Warren Weaver Hall #1302
 
-**Class Organization:** We use Slack for organization, communication and cooperation. Please email use if you want to be added.
+**Organization:** We use Slack for organization, communication and cooperation. Please email if you want to be added.
 
 ## Lecture Material
 
