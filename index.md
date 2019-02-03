@@ -20,15 +20,15 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 1         | Jan 28  | *Theory:* HPC Tour, Top 500 lists, applications, examples; *Tools:* ssh, module   | [slides](./files/lec1.pdf) [computing@CIMS](./files/hpc19_cims.pdf) | [code](https://github.com/NYU-HPC19/lecture1) | hw #1 [[PDF](./files/hpc19_assignment1.pdf), [TEX](./files/hpc19_assignment1.tex)],  due Feb 11         |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 2         | Feb 4   | *Theory:* Memory hierarchies, computational intensity, programming models, scalability, Amdahl's law; *Tools:*  cachgrind   | slides |  code  |          |
+| 2         | Feb 4   | *Theory:* Memory hierarchies, computational intensity, programming models, scalability, Amdahl's law; *Tools:* valgrind, cachgrind   | slides |  code  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 3         | Feb 11   | *Theory:* Distributed memory model, OpenMP, parallel loops, sharing; *Tools:* git  |  |  |          |
+| 3         | Feb 11   | *Theory:* Distributed memory model, OpenMP, parallel loops, sharing; *Tools:* git, gitk  |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 4         | Feb 18   | *Theory:* Jacobi and Gauss-Seidel in OpenMP, shared memory performance and speedup; *Tools:* make | | |
+| 4         | Feb 18   | *Theory:* Jacobi and Gauss-Seidel in OpenMP, shared memory performance and speedup; *Tools:* git, make | | |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 5         | Mar 4   | *Theory:* SIMD/MIMD, computing on GPGPUs, GPU memory, CUDA background; *Tools:* valgrind debugging  |  |  |          |
+| 5         | Mar 4   | *Theory:* SIMD/MIMD, computing on GPGPUs, GPU memory, CUDA background; *Tools:* scheduling  |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 6         | Mar 11   |  *Theory:* CUDA I; *Tools:* git and gitk   |   |  |          |
+| 6         | Mar 11   |  *Theory:* CUDA I; *Tools:*    |   |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 7         | Mar 25   | *Theory:* CUDA II; *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
