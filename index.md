@@ -26,23 +26,23 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 4         | Feb 18   | *Theory:* Jacobi and Gauss-Seidel in OpenMP, shared memory performance and speedup; *Tools:* make | | |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 5         | Feb 25   | *Theory:* SIMD/MIMD, computing on GPGPUs, GPU memory, CUDA background; *Tools:* valgrind debugging  |  |  |          |
+| 5         | Mar 4   | *Theory:* SIMD/MIMD, computing on GPGPUs, GPU memory, CUDA background; *Tools:* valgrind debugging  |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 6         | Mar 4   |  *Theory:* CUDA I; *Tools:* git and gitk   |   |  |          |
+| 6         | Mar 11   |  *Theory:* CUDA I; *Tools:* git and gitk   |   |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 7         | Mar 11   | *Theory:* CUDA II; *Tools:*       |  |  |          |
+| 7         | Mar 25   | *Theory:* CUDA II; *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 8         | Mar 25   | *Theory:* CUDA examples and performance; *Tools:*       |  |  |          |
+| 8         | Apr 1   | *Theory:* CUDA examples and performance; *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 9         | Apr 1   |  *Theory:* Sources of parallelism, distributed memory, partitiioning I, MPI send and recv; *Tools:* schedulers   |  |  |          |
+| 9         | Apr 8   |  *Theory:* Sources of parallelism, distributed memory, partitiioning I, MPI send and recv; *Tools:* schedulers   |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 10         | Apr 8   | *Theory:* Blocking and non-blocking MPI, collective MPI; *Tools:*       |  |  |          |
+| 10         | Apr 15   | *Theory:* Blocking and non-blocking MPI, collective MPI; *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 11         | Apr 15   | *Theory:* collective MPI, distributed memory examples;  *Tools:*       |  |  |          |
+| 11         | Apr 22   | *Theory:* collective MPI, distributed memory examples;  *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 12         | Apr 22   | *Theory:*  partitioning II and balancing, hybrid MPI-OpenMP computing    |  |  |          |
+| 12         | Apr 29   | *Theory:*  partitioning II and balancing, hybrid MPI-OpenMP computing    |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 13         | Apr 29   |        |  |  |          |
+| 13         | May 6   |        |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 14         | May 6   |        |  |  |          |
+| 14         | May 13   |        |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
