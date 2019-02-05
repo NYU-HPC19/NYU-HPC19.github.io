@@ -20,7 +20,7 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 1         | Jan 28  | *Theory:* HPC Tour, Top 500 lists, applications, examples; *Tools:* ssh, module   | [slides](./files/lec1.pdf) [computing@CIMS](./files/hpc19_cims.pdf) | [code](https://github.com/NYU-HPC19/lecture1) | hw #1 [[PDF](./files/hpc19_assignment1.pdf), [TEX](./files/hpc19_assignment1.tex)],  due Feb 11         |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 2         | Feb 4   | *Theory:* Memory hierarchies, computational intensity, programming models, scalability, Amdahl's law; *Tools:* valgrind, cachgrind   | slides |  code  |          |
+| 2         | Feb 4   | *Theory:* Memory hierarchies, computational intensity, programming models, scalability, Amdahl's law; *Tools:* valgrind, cachgrind   | [slides](./files/lec2.pdf) |  code  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 3         | Feb 11   | *Theory:* Distributed memory model, OpenMP, parallel loops, sharing; *Tools:* git, gitk  |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
