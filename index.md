@@ -24,7 +24,7 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 3         | Feb 11   | *Theory:* Distributed memory model, OpenMP, parallel loops, sharing; *Tools:* git, gitk  |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 4         | Feb 18   | *Theory:* Jacobi and Gauss-Seidel in OpenMP, shared memory performance and speedup; *Tools:* git, make | | |
+| 4         | Feb 25 (?)  | *Theory:* Distributed memory model, OpenMP, Jacobi and Gauss-Seidel in OpenMP, shared memory performance and speedup; *Tools:* git, make | | |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 5         | Mar 4   | *Theory:* SIMD/MIMD, computing on GPGPUs, GPU memory, CUDA background; *Tools:* scheduling  |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
