@@ -22,7 +22,7 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 2         | Feb 4   | *Theory:* Memory hierarchies, computational intensity, programming models, scalability, Amdahl's law; *Tools:* valgrind, cachgrind   | [slides](./files/lec2.pdf) | [code](https://github.com/NYU-HPC19/lecture2), [video](https://www.youtube.com/watch?v=G32QMsgr-jM) |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 3         | Feb 11   | *Theory:* Bandwidth, latency and valgrind examples, single core performance (pipelining, vectorization)  |  |  |          |
+| 3         | Feb 11   | *Theory:* Bandwidth, latency and valgrind examples, single core performance (pipelining, vectorization)  | [slides](./files/lec3.pdf) | [code](https://github.com/NYU-HPC19/lecture3)  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | -         | Feb 18   | *No class due to NYU holiday*  |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
