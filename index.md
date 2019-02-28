@@ -26,9 +26,9 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | -         | Feb 18   | *No class due to NYU holiday*  |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 4         | Feb 25  | *Theory:* Distributed memory model, OpenMP, shared memory performance and speedup | | |
+| 4         | Feb 25  | *Theory:* Amdahl's law, parallel scalability, Distributed memory model, OpenMP, shared memory performance and speedup; *Tools:* local git | [slides](./files/lec4.pdf) | [code](https://github.com/NYU-HPC19/lecture4) | |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 5         | Mar 4   | *Theory:* More OpenMP, SIMD/MIMD; *Tools:* git, gitk  |  |  |          |
+| 5         | Mar 4   | *Theory:* More OpenMP, SIMD/MIMD; *Tools:* more git, gitk  |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 6         | Mar 11   |  *Theory:* computing on GPGPUs, GPU memory, CUDA background; *Tools:*    |   |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
