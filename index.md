@@ -28,9 +28,9 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 4         | Feb 25  | *Theory:* Amdahl's law, parallel scalability, Distributed memory model, OpenMP, shared memory performance and speedup; *Tools:* local git | [slides](./files/lec4.pdf) | [code](https://github.com/NYU-HPC19/lecture4) | |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| -         | Mar 4   | *No class as NYU closure due to fake snow storm*  |  |  |          |
+| -         | Mar 4   | *No class due to NYU closure (fake snow storm day)*  |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 5         | Mar 8   | **Makeup class, Rm 101, 4:10-6:00PM** *Theory:* More OpenMP, atomic operations; *Tools:* remote git, git merge, gitk, Make  |  |  |          |
+| 5         | Mar 8   | **Makeup class, Rm 101, 4:10-6:00PM**: *Theory:* More OpenMP, atomic operations; *Tools:* remote git, git merge, gitk, Make  |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 6         | Mar 11   |  *Theory:* computing on GPGPUs, GPU memory, CUDA background; *Tools:*    |   |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
