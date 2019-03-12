@@ -32,9 +32,9 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 5         | Mar 8   | **Makeup class, Rm 101, 4:10-6:00PM; Video of the class is on NYU Classes (login required) HPC19-Panopto**: *Theory:* More OpenMP, atomic operations; *Tools:* remote git, git merge,  Make  | [slides](./files/lec5.pdf) | [code](https://github.com/NYU-HPC19/lecture5)  |     |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 6         | Mar 11   |  *Theory:* computing on GPGPUs, GPU memory, CUDA background; *Tools:*    |   |  |          |
+| 6         | Mar 11   | More OpenMP, NUMA, review of vectorization + lec3-demo, *Libraries:* BLAS, LAPACK, FFTW    | [slides](./files/lec6.pdf) | [code](https://github.com/NYU-HPC19/lecture6) |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 7         | Mar 25   | *Theory:* CUDA II; *Tools:*       |  |  |          |
+| 7         | Mar 25   | *Theory:* computing on GPGPUs, GPU memory, CUDA background; *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 8         | Apr 1   | *Theory:* CUDA examples and performance; *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
