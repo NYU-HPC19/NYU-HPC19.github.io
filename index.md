@@ -34,7 +34,7 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 6         | Mar 11   | *Theory:*  More OpenMP, NUMA, review of vectorization + lec3-demo, *Libraries:* BLAS, LAPACK, FFTW    | [slides](./files/lec6.pdf) | [code](https://github.com/NYU-HPC19/lecture6) |hw #3 [[PDF](./files/hpc19_assignment3.pdf), [TEX](./files/hpc19_assignment3.tex)],  due April 1          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 7         | Mar 25   | *Theory:* computing on GPGPUs, GPU memory, CUDA background; *Tools:*       |  |  |          |
+| 7         | Mar 25   | *Theory:* computing on GPGPUs, GPU architecture, thread hierarchy, memory spaces, global memory management, launching kernels; *Tools:* nvcc compiler | [slides](./files/lec7.pdf) | [code](https://github.com/NYU-HPC19/lecture7) |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 8         | Apr 1   | *Theory:* CUDA examples and performance; *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
