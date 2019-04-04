@@ -36,13 +36,13 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 7         | Mar 25   | *Theory:* computing on GPGPUs, GPU architecture, thread hierarchy, memory spaces, global memory management, launching kernels; *Tools:* nvcc compiler | [slides](./files/lec7.pdf) | [code](https://github.com/NYU-HPC19/lecture7) |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 8         | Apr 1   | *Theory:* computing on GPGPUs, shared memory, thread synchronization; *Tools:* job schedulers (SLURM) | [slides](./files/lec8.pdf) | [code](https://github.com/NYU-HPC19/lecture8) | hw #4 [[PDF](./files/hpc19_assignment4.pdf), [TEX](./files/hpc19_assignment4.tex)],  due April 15, [final project examples](./files/hpc19_projectexamples.pdf)          |
+| 8         | Apr 1   | *Theory:* computing on GPGPUs, shared memory, thread synchronization; *Tools:* job schedulers (SLURM), [final project examples](./files/hpc19_projectexamples.pdf)  | [slides](./files/lec8.pdf) | [code](https://github.com/NYU-HPC19/lecture8) | hw #4 [[PDF](./files/hpc19_assignment4.pdf), [TEX](./files/hpc19_assignment4.tex)],  due April 15         |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 9         | Apr 8   |  *Theory:* Sources of parallelism, distributed memory, partitiioning I, MPI send and recv; *Tools:* schedulers   |  |  |          |
+| 9         | Apr 8   |  *Theory:* Final project, GPU performance, image blurring example   |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 10         | Apr 15   | *Theory:* Blocking and non-blocking MPI, collective MPI; *Tools:*       |  |  |          |
+| 10         | Apr 15   | *Theory:* Sources of parallelism, distributed memory, partitioning I, MPI send and recv; *Tools:* schedulers *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 11         | Apr 22   | *Theory:* collective MPI, distributed memory examples;  *Tools:*       |  |  |          |
+| 11         | Apr 22   | *Theory:* Blocking and non-blocking MPI, collective MPI; collective MPI, distributed memory examples;  *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 12         | Apr 29   | *Theory:*  partitioning II and balancing, hybrid MPI-OpenMP computing    |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
