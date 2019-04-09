@@ -38,7 +38,7 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 8         | Apr 1   | *Theory:* computing on GPGPUs, shared memory, thread synchronization; *Tools:* job schedulers (SLURM), [final project examples](./files/hpc19_projectexamples.pdf)  | [slides](./files/lec8.pdf) | [code](https://github.com/NYU-HPC19/lecture8) | hw #4 [[PDF](./files/hpc19_assignment4.pdf), [TEX](./files/hpc19_assignment4.tex)],  due April 15         |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 9         | Apr 8   |  *Theory:* Final project, GPU performance, image blurring example   | [slides](./files/lec9.pdf) | [code](https://github.com/NYU-HPC19/lecture9) |          |
+| 9         | Apr 8   |  *Theory:* Final project, GPU performance, occupancy, strems; *Examples:* bitonic sort, scan, image blurring, cuBLAS   | [slides](./files/lec9.pdf) | [code](https://github.com/NYU-HPC19/lecture9) |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 10         | Apr 15   | *Theory:* Sources of parallelism, distributed memory, partitioning I, MPI send and recv; *Tools:* schedulers *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
