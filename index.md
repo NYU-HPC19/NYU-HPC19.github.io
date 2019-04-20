@@ -40,7 +40,7 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 9         | Apr 8   |  *Theory:* Final project, GPU performance, occupancy, streams; *Examples:* bitonic sort, scan, image blurring, cuBLAS   | [slides](./files/lec9.pdf) | [code](https://github.com/NYU-HPC19/lecture9) |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 10         | Apr 15   | *Theory:* Sources of parallelism, distributed memory computing, partitioning I, MPI send and recv       | [slides](./files/lec10.pdf)  | [code](https://github.com/NYU-HPC19/lecture10) |          |
+| 10         | Apr 15   | *Theory:* Sources of parallelism, distributed memory computing, partitioning I, MPI blocking and non-blocking Send and Recv       | [slides](./files/lec10.pdf)  | [code](https://github.com/NYU-HPC19/lecture10) |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 11         | Apr 22   | *Theory:* Blocking and non-blocking MPI, collective MPI; collective MPI, distributed memory examples;  *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
