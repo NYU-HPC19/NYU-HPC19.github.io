@@ -40,9 +40,9 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 9         | Apr 8   |  *Theory:* Final project, GPU performance, occupancy, streams; *Examples:* bitonic sort, scan, image blurring, cuBLAS   | [slides](./files/lec9.pdf) | [code](https://github.com/NYU-HPC19/lecture9) |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 10         | Apr 15   | *Theory:* Sources of parallelism, distributed memory computing, partitioning I, MPI blocking and non-blocking Send and Recv       | [slides](./files/lec10.pdf)  | [code](https://github.com/NYU-HPC19/lecture10) |          |
+| 10         | Apr 15   | *Theory:* Sources of parallelism, distributed memory computing, partitioning I, MPI blocking and non-blocking Send and Recv       | [slides](./files/lec10.pdf)  | [code](https://github.com/NYU-HPC19/lecture10) |  hw #5 [[PDF](./files/hpc19_assignment5.pdf), [TEX](./files/hpc19_assignment5.tex)],  due April 29        |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 11         | Apr 22   | *Theory:* Blocking and non-blocking MPI, collective MPI; collective MPI, distributed memory examples;  *Tools:*       |  |  |          |
+| 11         | Apr 22   | *Theory:* collective MPI calls (reduce, gather, etc), more distributed memory examples;  *Tools:*       |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 12         | Apr 29   | *Theory:*  partitioning II and balancing, hybrid MPI-OpenMP computing    |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|

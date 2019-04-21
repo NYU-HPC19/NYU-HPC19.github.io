@@ -1,0 +1,125 @@
+\documentclass[12pt]{article}
+
+%% FONTS
+%% To get the default sans serif font in latex, uncomment following line:
+ \renewcommand*\familydefault{\sfdefault}
+%%
+%% to get Arial font as the sans serif font, uncomment following line:
+%% \renewcommand{\sfdefault}{phv} % phv is the Arial font
+%%
+%% to get Helvetica font as the sans serif font, uncomment following line:
+% \usepackage{helvet}
+\usepackage[small,bf,up]{caption}
+\renewcommand{\captionfont}{\footnotesize}
+\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage{graphics,epsfig,graphicx,float,subfigure,color}
+\usepackage{amsmath,amssymb,amsbsy,amsfonts,amsthm}
+\usepackage{url}
+\usepackage{boxedminipage}
+\usepackage[sf,bf,tiny]{titlesec}
+ \usepackage[plainpages=false, colorlinks=true,
+   citecolor=blue, filecolor=blue, linkcolor=blue,
+   urlcolor=blue]{hyperref}
+\usepackage{enumitem}
+\usepackage{verbatim}
+\usepackage{tikz,pgfplots}
+
+\newcommand{\todo}[1]{\textcolor{red}{#1}}
+% see documentation for titlesec package
+% \titleformat{\section}{\large \sffamily \bfseries}
+\titlelabel{\thetitle.\,\,\,}
+
+\newcommand{\bs}{\boldsymbol}
+\newcommand{\alert}[1]{\textcolor{red}{#1}}
+\setlength{\emergencystretch}{20pt}
+
+\begin{document}
+
+\begin{center}
+  \vspace*{-2cm}
+{\small MATH-GA 2012.001 and CSCI-GA 2945.001, Georg Stadler \&
+  Dhairya Malhotra (NYU Courant)}
+\end{center}
+\vspace*{.5cm}
+\begin{center}
+\large \textbf{%%
+Spring 2019: Advanced Topics in Numerical Analysis: \\
+High Performance Computing \\
+Assignment 5 (due Apr.\ 29, 2019) }
+\end{center}
+
+\noindent {\bf Handing in your homework:} Hand in your homework as for
+the previous homework assignments (git repo with Makefile), answering
+the questions by adding a text or a \LaTeX\ file to your repo.
+\\[.2ex]
+
+% ****************************
+\begin{enumerate}
+% --------------------------
+
+\item {\bf MPI ring communication.}  Write a distributed memory
+  program that sends an integer in a ring starting from process 0 to 1
+  to 2 (and so on). The last process sends the message back to process
+  0. Perform this loop $N$ times, where $N$ is set in the program or
+  on the command line.
+  \begin{itemize}
+  \item Start with sending the integer 0 and let every process add its
+    rank to the integer it received before it sends it to the next
+    processor. Use the result
+    after $N$ loops to check if all processors have properly added
+    their contribution each time they received and sent the message.
+  \item Time your program for a larger $N$ and estimate the latency on
+    your system (i.e., the time used for each communication).  If you
+    have access to the CIMS network, try to test your communication
+    ring on more than one machine such that communication must go
+    through the network.\footnote{See the computing \@ CIMS
+      information sheet posted in the first week of the class
+      on how to use multiple hosts when using \texttt{mpirun}. Note
+      that on each host, the same compiled file must be available,
+      i.e., they need to have a shared directory such as the home
+      directories in CIMS.} If you
+    use MPI on a single processor with multiple cores, the available
+    memory is logically distributed, but messages are not actually
+    sent through a network.\footnote{It depends on the implementation
+      of MPI how it handles sending/receiving of data that is stored
+      in the same physical memory.}
+  \item Hand in your solution using the filename \texttt{int\_ring.c}.
+  \item Modify your code such that instead of a single integer being
+    sent in a ring, you communicate a large array of about 2MByte in a
+    ring. Time the communication and use these timings to estimate the
+    bandwidth of your system (i.e., the amount of data that can be
+    communicated per second).
+  \end{itemize}
+
+
+\item {\bf Provide details regarding your final project.}
+  Provide a more detailed list/table of what tasks you have done and are planning on
+  doing for your final project, including an estimate of the  week
+  you will be working on each task, and who will work on it. We are
+  thinking of something like this:
+  \begin{center}
+  \begin{tabular} {|c|p{9cm}|p{2cm}|}
+    \hline
+    \multicolumn{3}{|c|}{\bf Project: A parallel compression algorithm
+      to build a new internet} \\
+    \hline
+    Week & Work & Who  \\ \hline \hline
+    04/15-04/21 & Read paper underlying idea and think about
+    algorithm & Richard, Erlich \\ \hline
+    04/22-04/28 & More literature search and sketch MPI parallel
+    version, write pseudocode, think of extensions in CUDA  & Richard \\ \hline
+    04/29-05/05 &  Implement basic MPI functions, update profs on
+    status, ask for help in office hours, write tests to verify
+    implementation & Erlich\\ \hline
+    05/06-05/12 & Finish implementation, fix remaining bugs,
+    experiment with compression capability, time permitting: write
+    CUDA kernel & Richard, Erlich \\ \hline
+    05/13-05/19 & Run scalability tests, work on
+    presentation slides and report  & Richard, Erlich \\ \hline
+  \end{tabular}
+  \end{center}
+
+
+
+\end{enumerate}
+\end{document}
