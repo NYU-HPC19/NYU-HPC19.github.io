@@ -44,9 +44,9 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 11         | Apr 22   | *Theory:* collective MPI calls (reduce, gather, etc), more distributed memory examples;  *Tools:* more SLURM       | [slides](./files/lec11.pdf)   | [code](https://github.com/NYU-HPC19/lecture11)  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 12         | Apr 29   | *Theory:*  partitioning II and balancing, hybrid MPI-OpenMP computing    |  |  |          |
+| 12         | Apr 29   | *Theory:* MPI algorithms: parallel Jacobi (blocking and non-blocking), hypercube algorithms; problem partitioning and distribution    | [slides](./files/lec12.pdf)   | [code](https://github.com/NYU-HPC19/lecture12)  |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 13         | May 6   |        |  |  |          |
+| 13         | May 6   | *Theory:* MPI algorithms: multigrid, hybrid MPI-OpenMP    |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 14         | May 13   |        |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
