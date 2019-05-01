@@ -44,7 +44,7 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 11         | Apr 22   | *Theory:* collective MPI calls (reduce, gather, etc), more distributed memory examples;  *Tools:* more SLURM       | [slides](./files/lec11.pdf)   | [code](https://github.com/NYU-HPC19/lecture11)  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 12         | Apr 29   | *Theory:* MPI algorithms: parallel Jacobi (blocking and non-blocking), hypercube algorithms; problem partitioning and distribution    | [slides](./files/lec12.pdf)   | [code](https://github.com/NYU-HPC19/lecture12)  |
+| 12         | Apr 29   | *Theory:* MPI algorithms: parallel Jacobi (blocking and non-blocking), hypercube algorithms; problem partitioning and distribution    | [slides](./files/lec12.pdf)   | [code](https://github.com/NYU-HPC19/lecture12)  | hw #6 [[PDF](./files/hpc19_assignment6.pdf), [TEX](./files/hpc19_assignment6.tex)],  due May  |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 13         | May 6   | *Theory:* MPI algorithms: multigrid, hybrid MPI-OpenMP    |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
