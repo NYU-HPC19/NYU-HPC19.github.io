@@ -46,7 +46,7 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 12         | Apr 29   | *Theory:* MPI algorithms: parallel Jacobi (blocking and non-blocking), hypercube algorithms; problem partitioning and distribution    | [slides](./files/lec12.pdf)   | [code](https://github.com/NYU-HPC19/lecture12)  | hw #6 [[PDF](./files/hpc19_assignment6.pdf), [TEX](./files/hpc19_assignment6.tex)],  due May  |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 13         | May 6   | *Theory:* MPI algorithms: multigrid, hybrid MPI-OpenMP    |  |  |          |
+| 13         | May 6   | *Theory:* Space filling curves and Morten IDs, multigrid; *Tools:* paraview   |  [slides](./files/lec13.pdf)   | [code](https://github.com/NYU-HPC19/lecture13)  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 14         | May 13   |        |  |  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
