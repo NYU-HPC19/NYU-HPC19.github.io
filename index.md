@@ -48,7 +48,7 @@ Here’s a [flyer](./files/flyer.pdf) for the class.
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 | 13         | May 6   | *Theory:* Space filling curves and Morton IDs, multigrid; *Tools:* paraview   |  [slides](./files/lec13.pdf)   | [code](https://github.com/NYU-HPC19/lecture13)  |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
-| 14         | May 13   |        |  |  |          |
+| 14         | May 13   | *Theory:* N-body problems, Tree code, Fast Multipole Method; | [slides](./files/lec4.pdf)   | [code](https://github.com/NYU-HPC19/lecture14) |          |
 |:---------:|:-------:|:------:|:--------------------------:|:---------------------------------------------:|:--------:|
 
 ## Other
